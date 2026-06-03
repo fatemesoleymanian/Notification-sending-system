@@ -60,11 +60,10 @@ Register a normal user through `POST /auth/register`, then log in with the same 
 
 ### Profiles
 
-- `application-dev.properties`
+- `application.properties`
 - `application-test.properties`
-- `application-prod.properties`
 
-Use `SPRING_PROFILES_ACTIVE` to switch profiles when needed.
+Use `SPRING_PROFILES_ACTIVE=test` when running the test suite manually if needed.
 
 ## Run Locally
 
