@@ -9,7 +9,7 @@ class JwtServiceTest {
 
     private final JwtService jwtService = new JwtService(
             "U2VjcmV0S2V5Rm9yTXlNaW5pRVJQU3lzdGVtMTIzIT8=",
-            86_400_000L
+            172_800_000L
     );
 
     @Test
